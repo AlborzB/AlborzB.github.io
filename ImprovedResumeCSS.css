@@ -1,0 +1,120 @@
+/* CSS */
+
+html, body {
+	margin: 0;
+	padding: 0;
+	background-color: #F9F9F9;
+}
+
+/* 
+ *  
+ *  Header 
+ *
+ */ 
+#header {
+	background-color: #E4E4E4;
+	font-size: 30px;
+	height:300px;
+}
+
+#header .container {
+	padding-top: 75px;
+	text-align: center;
+}
+
+#header .container img {
+/*
+	position:absolute;
+	top:100px;
+	left:100px;
+*/
+	display:block;
+	margin:auto;
+	top:50px;
+	height: 350px;
+	border:1px black solid;
+
+}
+
+#yourname {
+/* 
+	border:2px dashed green; 
+*/
+	display:block;
+	text-align: center;
+	margin-top:150px;
+	font-size: 30px;
+	font-family: garamond;
+}
+
+
+
+/* 
+ *  
+ *  Education 
+ *
+ */ 
+
+.education { /* combination of the "Education" title and the box underneath */
+	display: inline-block; 
+	/* border:green dashed 2px; */
+	vertical-align: top;
+	margin-left: 50px;
+	font-family: arial;
+}
+
+.education h2 { /* title only */
+	font-size:40px;
+}
+
+.education .container { /* container only */
+	border: #7C7C7C solid 1px;
+	width:500px;
+	height:275px;
+	border-radius: 5px;
+	background-color: white;
+}
+
+
+
+/* 
+ *  
+ *  Experience 
+ *
+ */ 
+
+.experience { /* title and container */
+	display: inline-block; 
+	/* border:green dashed 2px; */
+	margin-left: 50px;
+	font-family: arial;
+}
+
+.experience h2 { /* title only */
+}
+
+
+.experience .container { /* container only */ 
+
+	border: #7C7C7C solid 1px;
+	width:500px;
+	height:200px;
+	border-radius: 5px;
+	background-color: white;
+}
+ 
+
+
+
+
+.eduexp { /* This is the div containing both the education and experience divs */
+	white-space: nowrap;
+	/* border:red dashed 3px; */
+	vertical-align: top;
+}
+
+
+
+
+
+

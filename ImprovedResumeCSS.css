@@ -6,11 +6,15 @@ html, body {
 	background-color: #F9F9F9;
 }
 
+
+
+
 /* 
  *  
  *  Header 
  *
  */ 
+
 #header {
 	background-color: #E4E4E4;
 	font-size: 30px;
@@ -36,6 +40,14 @@ html, body {
 
 }
 
+#linkedin {
+	position:absolute;
+	right:543px;
+	top:75px;
+	height:60px;
+	width:60px;
+}
+
 #yourname {
 /* 
 	border:2px dashed green; 
@@ -49,6 +61,13 @@ html, body {
 
 
 
+
+
+.container {
+	margin-bottom: 10px;
+}
+
+
 /* 
  *  
  *  Education 
@@ -59,8 +78,8 @@ html, body {
 	display: inline-block; 
 	/* border:green dashed 2px; */
 	vertical-align: top;
-	margin-left: 50px;
-	font-family: arial;
+	margin-left: 150px;
+	font-family: garamond;
 }
 
 .education h2 { /* title only */
@@ -68,12 +87,17 @@ html, body {
 }
 
 .education .container { /* container only */
-	border: #7C7C7C solid 1px;
-	width:500px;
-	height:275px;
+	border: #c0c0c0 solid 1px;
+	width:550px;
+	height:412px;
 	border-radius: 5px;
 	background-color: white;
+	margin-top:5px;
 }
+
+
+
+
 
 
 
@@ -86,8 +110,9 @@ html, body {
 .experience { /* title and container */
 	display: inline-block; 
 	/* border:green dashed 2px; */
-	margin-left: 50px;
-	font-family: arial;
+	margin-left: 10px;
+	font-family: garamond;
+	margin-top: -3px;
 }
 
 .experience h2 { /* title only */
@@ -96,16 +121,36 @@ html, body {
 
 .experience .container { /* container only */ 
 
-	border: #7C7C7C solid 1px;
-	width:500px;
+	border: #c0c0c0 solid 1px;
+	width:550px;
 	height:200px;
 	border-radius: 5px;
 	background-color: white;
+	margin-top: 6px;
 }
  
+ul {
+	margin-left: 1.2em;
+	display: inline-block;
+}
 
+.Quicken {
+	display: inline-block;
+}
 
-
+/*
+li {
+	cursor:pointer;
+}
+*/ 
+/*
+ul.arrow_bullets  {
+	font-size: 12px;
+	margin-left: -30px;
+	list-style-image: url(http://www.hydropool.com/images/arrow_next.gif);
+	list-style-position: inside; 
+}
+*/
 
 .eduexp { /* This is the div containing both the education and experience divs */
 	white-space: nowrap;
@@ -113,8 +158,49 @@ html, body {
 	vertical-align: top;
 }
 
+img {
+	display:inline-block;
+}
 
 
+/* Skills and Interests */
 
+.skills_interests {
+	display: block;
+	/* background-color: #E4E4E4; */
+	margin-bottom:50px;
+	font-family: garamond;
+
+}
+
+.skills_interests h1 {
+	text-align: center;
+}
+
+.skills_interests .container { /* container only */ 
+
+	border: #c0c0c0 solid 1px;
+	width:900px;
+	height:145px;
+	border-radius: 5px;
+	background-color: white;
+	margin-top: 6px;
+	display: block;
+	margin:auto;
+}
+
+.skill_int_bubbles {
+	font-size: 25px;
+	border:black solid 1px; 
+	display:table-cell; 
+	height: 100%;
+	border-radius:5px;
+	margin:5px;
+	display: inline-block;
+	padding-left:10px;
+	padding-right: 10px;
+	margin-top: 10px;
+	background-color: #f2ffff;
+}
 
 
